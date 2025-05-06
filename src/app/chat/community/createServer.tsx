@@ -1541,7 +1541,7 @@ const CreateServerModal: React.FC<CreateServerModalProps> = ({
                     <div data-svg-wrapper className="relative">
                       {image ? (
                         <img
-                          src={preview}
+                          src={preview || undefined}
                           alt="Preview"
                           className="border border-grey-300 rounded-full w-24 h-24 object-cover"
                         />
