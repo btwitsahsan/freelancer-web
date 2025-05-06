@@ -1,0 +1,12 @@
+<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g id="clock-04">
+        <path id="Vector"
+            d="M7.00016 12.8337C10.2218 12.8337 12.8335 10.222 12.8335 7.00033C12.8335 3.77866 10.2218 1.16699 7.00016 1.16699C4.38818 1.16699 2.20181 2.88368 1.4585 5.25033H2.91683"
+            stroke="#F59E0B" stroke-width="0.875" stroke-linecap="round" stroke-linejoin="round" />
+        <path id="Vector_2" d="M7 4.66699V7.00033L8.16667 8.16699" stroke="#F59E0B" stroke-width="0.875"
+            stroke-linecap="round" stroke-linejoin="round" />
+        <path id="Vector_3"
+            d="M1.1665 7C1.1665 7.19676 1.17537 7.39136 1.19272 7.58333M5.24984 12.8333C5.05057 12.7678 4.85592 12.6912 4.6665 12.6046M1.87198 9.91667C1.75949 9.6999 1.65915 9.47526 1.5719 9.24362M2.81805 11.2621C2.99636 11.4542 3.18662 11.6341 3.38757 11.8004"
+            stroke="#F59E0B" stroke-width="0.875" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+</svg>

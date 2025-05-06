@@ -1,0 +1,108 @@
+{
+    "Web Development": [
+        "React",
+        "Node.js",
+        "Angular",
+        "Vue.js",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript",
+        "PHP",
+        "Laravel",
+        "Ruby on Rails",
+        "Django",
+        "Flask",
+        "ASP.NET"
+    ],
+    "Mobile Development": [
+        "Flutter",
+        "React Native",
+        "Swift",
+        "Kotlin",
+        "Objective-C",
+        "Ionic",
+        "Xamarin"
+    ],
+    "Data Science & Analytics": [
+        "Python",
+        "R",
+        "TensorFlow",
+        "PyTorch",
+        "Tableau",
+        "Power BI",
+        "Apache Spark",
+        "Hadoop",
+        "SQL",
+        "Excel"
+    ],
+    "UI/UX Design": [
+        "Figma",
+        "Sketch",
+        "Adobe XD",
+        "InVision",
+        "Photoshop",
+        "Illustrator",
+        "Wireframing",
+        "Prototyping",
+        "User Research"
+    ],
+    "Writing & Content": [
+        "Copywriting",
+        "Technical Writing",
+        "SEO Writing",
+        "Content Strategy",
+        "Proofreading",
+        "Editing",
+        "Creative Writing"
+    ],
+    "Digital Marketing": [
+        "SEO",
+        "SEM",
+        "Google Ads",
+        "Facebook Ads",
+        "Social Media Management",
+        "Email Marketing",
+        "Affiliate Marketing",
+        "Content Marketing",
+        "Marketing Strategy"
+    ],
+    "Blockchain & Crypto": [
+        "Solidity",
+        "Ethereum",
+        "Smart Contracts",
+        "Bitcoin",
+        "DeFi",
+        "Web3.js",
+        "NFT Development"
+    ],
+    "DevOps & Cloud": [
+        "AWS",
+        "Azure",
+        "Google Cloud",
+        "Docker",
+        "Kubernetes",
+        "CI/CD",
+        "Terraform",
+        "Ansible",
+        "Linux Administration"
+    ],
+    "AI & Machine Learning": [
+        "Deep Learning",
+        "Natural Language Processing",
+        "Computer Vision",
+        "Reinforcement Learning",
+        "Scikit-learn",
+        "Keras",
+        "OpenAI API"
+    ],
+    "Video & Animation": [
+        "After Effects",
+        "Premiere Pro",
+        "Final Cut Pro",
+        "Blender",
+        "3D Modeling",
+        "Motion Graphics",
+        "Video Editing"
+    ]
+}

@@ -1,0 +1,49 @@
+{
+  "dm": [
+    { 
+      "avatar": "/image/avatar/avatar-1.png", 
+      "name": "Thomas", 
+      "news": 0,
+      "role": "SEO Export",
+      "timezone": "7:14 PM(UTC-06:00)",
+      "email": "thomas9091@mailfence.com",
+      "phone": "+1 123 456 7890"
+    },
+    { 
+      "avatar": "/image/avatar/avatar-2.png", 
+      "name": "Japerson", 
+      "news": 0,
+      "role": "SEO Export",
+      "timezone": "7:14 PM(UTC-06:00)",
+      "email": "japerson@mailfence.com",
+      "phone": "+1 123 456 7890"
+    },
+    { 
+      "avatar": "/image/avatar/avatar-3.png", 
+      "name": "Tom", 
+      "news": 0,
+      "role": "SEO Export",
+      "timezone": "7:14 PM(UTC-06:00)",
+      "email": "thomas9091@mailfence.com",
+      "phone": "+1 123 456 7890"
+    },
+    { 
+      "avatar": "/image/avatar/avatar-5.png", 
+      "name": "Andrew", 
+      "news": 0,
+      "role": "SEO Export",
+      "timezone": "7:14 PM(UTC-06:00)",
+      "email": "thomas9091@mailfence.com",
+      "phone": "+1 123 456 7890"
+    },
+    { 
+      "avatar": "/image/avatar/avatar-6.png", 
+      "name": "Boris", 
+      "news": 0,
+      "role": "SEO Export",
+      "timezone": "7:14 PM(UTC-06:00)",
+      "email": "thomas9091@mailfence.com",
+      "phone": "+1 123 456 7890"
+    }
+  ]
+}

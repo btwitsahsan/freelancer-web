@@ -1,0 +1,16 @@
+import Header from "@/components/Header";
+import Main from "./Main";
+
+const Referral = () => {
+  return (
+    <main className="m-auto min-h-screen bg-gray100 overflow-hidden">
+      <Header />
+
+      <div className="flex flex-col pt-10">
+        <Main />
+      </div>
+    </main>
+  );
+};
+
+export default Referral;

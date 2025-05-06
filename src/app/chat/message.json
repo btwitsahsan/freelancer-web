@@ -1,0 +1,88 @@
+{
+  "message": [
+    {
+      "_id": "67c1720e04dcc3ed12bca89b",
+      "senderName": "Anthony William",
+      "receiverName": "Kristin Watson",
+      "senderAvatar": "/image/avatar/avatar-1.png",
+      "message": "Hello Hendro,\nPlease give me some time to thoroughly check the item you are referring to. I need a few minutes to review it carefully. I'll get back to you shortly with more information. Thank you for your patience.",
+      "files": [],
+      "isSeen": true,
+      "timestamp": "2025-02-28T08:21:34.097Z",
+      "__v": 0
+    },
+    {
+        "_id": "67c1720e04dcc3ed12bca89b",
+        "senderName": "Anthony William",
+        "receiverName": "Kristin Watson",
+        "senderAvatar": "/image/avatar/avatar-1.png",
+        "message": "Hello Hendro,\nPlease give me some time to thoroughly check the item you are referring to. I need a few minutes to review it carefully. I'll get back to you shortly with more information. Thank you for your patience.",
+        "files": [],
+        "isSeen": true,
+        "timestamp": "2025-02-28T08:21:34.097Z",
+        "__v": 0
+    },
+    {
+        "_id": "67c1720e04dcc3ed12bca89b",
+        "senderName": "Hendro Kuncoro",
+        "receiverName": "Kristin Watson",
+        "senderAvatar": "/image/avatar/avatar-2.png",
+        "message": "Thanks, I will wait for your update.",
+        "files": [
+            {
+                "fileUrl": "/image/server/server1.png",
+                "fileType": "image/png",
+                "_id": "67c1720e04dcc3ed12bca89c"
+            }
+        ],
+        "isSeen": true,
+        "timestamp": "2025-02-28T08:21:34.097Z",
+        "__v": 0
+    },
+    {
+        "_id": "67c1720e04dcc3ed12bca89b",
+        "senderName": "Anthony William",
+        "receiverName": "Kristin Watson",
+        "senderAvatar": "/image/avatar/avatar-3.png",
+        "message": null,
+        "files": [
+            {
+                "fileUrl": "/upload/sample.mp3",
+                "fileType": "audio/mp3",
+                "_id": "67c1720e04dcc3ed12bca89c"
+            }
+        ],
+        "isSeen": true,
+        "timestamp": "2025-02-28T08:21:34.097Z",
+        "__v": 0
+    },
+    {
+        "_id": "67c1720e04dcc3ed12bca89b",
+        "senderName": "Hendro Kuncoro",
+        "receiverName": "Kristin Watson",
+        "senderAvatar": "/image/avatar/avatar-4.png",
+        "message": "Thanks, I will wait for your update.",
+        "files": [
+            {
+                "fileUrl": "/image/server/server1.png",
+                "fileType": "image/png",
+                "_id": "67c1720e04dcc3ed12bca89c"
+            }
+        ],
+        "isSeen": true,
+        "timestamp": "2025-02-28T08:21:34.097Z",
+        "__v": 0
+    },
+    {
+        "_id": "67c1720e04dcc3ed12bca89b",
+        "senderName": "Anthony William",
+        "receiverName": "Kristin Watson",
+        "senderAvatar": "/image/avatar/avatar-5.png",
+        "message": "Hello Hendro,\nPlease give me some time to thoroughly check the item you are referring to. I need a few minutes to review it carefully. I'll get back to you shortly with more information. Thank you for your patience.",
+        "files": [],
+        "isSeen": true,
+        "timestamp": "2025-02-28T08:21:34.097Z",
+        "__v": 0
+    }
+  ]
+}

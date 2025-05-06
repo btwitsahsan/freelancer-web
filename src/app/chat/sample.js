@@ -1,0 +1,1 @@
+const nextSection = GamepadButton.closet("section").closet("section").nextELementSibling;
