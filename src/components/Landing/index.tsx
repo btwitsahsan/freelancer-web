@@ -51,7 +51,7 @@ const Landing = () => {
           alt="customer success"
           width={272}
           height={110}
-          className="absolute top-[120px] left-[10%] md:top-[160px] md:left-[240px]"
+          className="absolute top-[60px] left-[5%] md:top-[100px] md:left-[170px]"
         />
       </motion.div>
 
@@ -65,7 +65,7 @@ const Landing = () => {
           alt="design engineer"
           width={207}
           height={70}
-          className="absolute top-[200px] right-[10%] md:top-[240px] md:right-[320px]"
+          className="absolute top-[200px] right-[10%] md:top-[240px] md:right-[170px]"
         />
       </motion.div>
 
@@ -79,7 +79,7 @@ const Landing = () => {
           alt="product designer"
           width={281}
           height={173}
-          className="absolute left-[40%] bottom-[90px] md:left-[120px] md:bottom-[160px]"
+          className="absolute left-[40%] md:left-[3%] bottom-[70px] md:bottom-[100px] lg:bottom-[90px]"
         />
       </motion.div>
 
@@ -93,7 +93,7 @@ const Landing = () => {
           alt="top job categories"
           width={307}
           height={239}
-          className="absolute right-[5%] hidden md:block md:bottom-[100px] md:right-[160px] md:bottom-[120px]"
+          className="absolute right-[5%] md:right-[3%] lg:right-[5%] hidden md:block md:bottom-[60px] lg:bottom-[30px]"
         />
       </motion.div>
 

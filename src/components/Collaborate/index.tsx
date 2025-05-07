@@ -71,12 +71,12 @@ const Collaborate = () => {
           >
             <div>
               <div className="flex items-end justify-center gap-2 relative mb-5">
-                <h3 className="min-w-max font-medium text-[32px] text-black">
+                <h3 className="min-w-max font-medium text-[24px] md:text-[28px] text-black">
                   Instant Messaging
                 </h3>
                 <div className="bg-gradient-to-r from-gradientStart to-gradientEnd h-[1px] w-full mb-3"></div>
                 <Icons.chat
-                  className="absolute top-[-20px] left-[270px]"
+                  className="absolute top-[-20px] left-[212px] md:top-[-20px] md:left-[248px]"
                   width="30"
                 />
               </div>
@@ -88,12 +88,12 @@ const Collaborate = () => {
 
             <div className="mt-20">
               <div className="flex items-end justify-center gap-2 relative mb-5">
-                <h3 className="min-w-max font-medium text-[32px] text-black">
+                <h3 className="min-w-max font-medium text-[24px] md:text-[28px] text-black">
                   AI Translation
                 </h3>
                 <div className="bg-gradient-to-r from-gradientStart to-gradientEnd h-[1px] w-full mb-3"></div>
                 <Icons.translation
-                  className="absolute top-[-20px] left-[210px]"
+                  className="absolute top-[-20px] left-[160px] md:top-[-20px] md:left-[188px]"
                   width="30"
                 />
               </div>
@@ -104,12 +104,12 @@ const Collaborate = () => {
 
             <div className="mt-20">
               <div className="flex items-end justify-center gap-2 relative mb-5">
-                <h3 className="min-w-max font-medium text-[32px] text-black">
+                <h3 className="min-w-max font-medium text-[24px] md:text-[28px] text-black">
                   Task and Project Management
                 </h3>
                 <div className="bg-gradient-to-r from-gradientStart to-gradientEnd h-[1px] w-full mb-3"></div>
                 <Icons.management
-                  className="absolute top-[-20px] left-[450px]"
+                  className="absolute top-[-20px] left-[345px] md:top-[-20px] md:left-[403px]"
                   width="30"
                 />
               </div>

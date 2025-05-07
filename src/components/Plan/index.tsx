@@ -37,7 +37,7 @@ const Plan = () => {
   };
 
   return (
-    <div className="relative flex justify-center w-full" id="explore-plan">
+    <div className="relative flex justify-center w-full px-6" id="explore-plan">
       <div className="absolute right-[-130px] animate-floatingY">
         <Image
           src="/image/cube.svg"

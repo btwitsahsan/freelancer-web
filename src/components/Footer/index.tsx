@@ -18,7 +18,7 @@ const Footer = () => {
       <div className="flex justify-center w-full py-10 border-y border-gray-200">
         <div className="w-full max-w-[1440px] flex flex-col md:flex-row items-center justify-between gap-6 md:gap-0">
 
-          <Link href="/" className="flex items-center gap-3 w-[112px]">
+          <Link href="/" className="flex items-center gap-3 md:w-[112px]">
             <Image src="/image/logo.svg" alt="logo" width={50} height={50} />
           </Link>
 

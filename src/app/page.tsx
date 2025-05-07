@@ -48,7 +48,7 @@ const Home = () => {
   }, [router, searchParams]);
 
   return (
-    <main className="bg-gray100 overflow-hidden flex flex-col items-center gap-36">
+    <main className="bg-gray100 overflow-hidden flex flex-col items-center gap-10 md:gap-20 lg:gap-28">
       <div className="w-full">
         <Header white={false} />
         <Landing />

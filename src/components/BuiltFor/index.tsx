@@ -87,7 +87,7 @@ const BuiltFor = () => {
             <span className="text-black">Built for</span> Every Freelancer
           </motion.h2>
 
-          <div className="flex flex-col lg:flex-row flex-wrap items-center justify-between gap-12">
+          <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
             {FeaturesList.map(
               (item, key) =>
                 selected === key && (
@@ -216,11 +216,13 @@ const BuiltFor = () => {
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row items-center gap-12">
+
+
+        <div className="flex flex-col-reverse lg:flex-row items-center gap-12">
           <div className="flex flex-col gap-10">
             <div className="flex flex-col gap-2">
               <motion.h4
-                className="font-medium text-[32px] leading-none h-8 text-black"
+                className="font-medium text-[32px] leading-none text-black"
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, amount: 0.5 }}
@@ -230,7 +232,7 @@ const BuiltFor = () => {
               </motion.h4>
 
               <motion.span
-                className="font-jost text-xl leading-none h-5"
+                className="font-jost text-xl leading-none"
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, amount: 0.5 }}
@@ -381,9 +383,8 @@ const BuiltFor = () => {
             viewport={{ once: true, amount: 0.5 }}
             variants={fadeIn}
           >
-            <h1 className="text-center">Secure.</h1>
-            <h1>Transparent.</h1>
-            <h1 className="text-end mr-20">Fair.</h1>
+            <h1 className="text-center hidden lg:block">Secure<br/>Transparent<br/>Fair</h1>
+            <h1 className="text-center lg:hidden">Secure Transparent Fair</h1>
           </motion.div>
         </div>
       </div>

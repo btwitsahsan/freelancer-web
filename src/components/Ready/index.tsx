@@ -57,7 +57,7 @@ const Ready = () => {
               alt="design engineer"
               width={207}
               height={70}
-              className="absolute top-[-35px] right-[100px]"
+              className="absolute top-[-35px] right-[100px] hidden md:block"
             />
           </motion.div>
 

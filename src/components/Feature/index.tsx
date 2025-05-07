@@ -10,7 +10,7 @@ const Feature = () => {
   };
 
   return (
-    <div className="relative w-full flex justify-center px-4 md:px-8 py-12">
+    <div className="relative w-full flex justify-center px-4 md:px-8">
 
       <motion.div
         initial="hidden"
@@ -29,9 +29,9 @@ const Feature = () => {
       </motion.div>
 
 
-      <div className="max-w-[1440px] w-full">
+      <div className="w-3/4 md:w-2/3 mx-auto">
         <motion.h2
-          className="text-3xl sm:text-4xl md:text-5xl lg:text-[64px] leading-snug sm:leading-tight text-transparent bg-clip-text bg-gradient-to-r from-gradientStart to-gradientEnd"
+          className="text-3xl sm:text-4xl md:text-5xl lg:text-[2rem] text-center leading-snug sm:leading-tight text-transparent bg-clip-text bg-gradient-to-r from-gradientStart to-gradientEnd"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}

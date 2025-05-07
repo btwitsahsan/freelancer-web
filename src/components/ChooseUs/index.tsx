@@ -74,7 +74,7 @@ const ChooseUs = () => {
         </div>
 
         <motion.div
-          className="flex flex-col md:flex-row items-center justify-center md:justify-between gap-10 flex-wrap"
+          className="flex flex-col md:flex-row items-center justify-center md:justify-between gap-10"
           variants={containerVariants}
         >
           {ChooseUsList.map((item, index) => (

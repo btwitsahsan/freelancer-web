@@ -122,7 +122,7 @@ const Header = ({ white = true, round = true }: HeaderProps) => {
 
       {!isLoggedIn && (
         <button
-          className="md:hidden text-2xl text-black"
+          className="lg:hidden text-2xl text-black"
           onClick={() => setMenuOpen(!menuOpen)}
         >
           ☰
@@ -132,22 +132,22 @@ const Header = ({ white = true, round = true }: HeaderProps) => {
       {!isLoggedIn ? (
         <>
           <ul
-            className={`hidden md:flex gap-12 font-jost text-base capitalize list-none`}
+            className={`hidden lg:flex gap-12 font-jost text-base capitalize list-none`}
           >
             {LoggedOutMenu.map((item, index) => (
-              <li key={index} className="cursor-pointer">
+              <li key={index} className="cursor-pointer hover:text-[#B054D1] ">
                 <Link href={item.href}>{item.title}</Link>
               </li>
             ))}
           </ul>
-          <div className="hidden md:flex justify-end items-center gap-2 w-[265px]">
+          <div className="hidden lg:flex justify-end items-center gap-2 w-[265px]">
             <Link href="/sign-up">
               <button className="bg-gradient-to-r from-gradientStart to-gradientEnd px-7 py-3 rounded-lg font-jost text-base text-white">
                 Register
               </button>
             </Link>
             <Link href="/sign-in">
-              <button className="px-7 py-3 text-black">Login</button>
+              <button className="px-7 py-3 text-black hover:text-[#B054D1]">Login</button>
             </Link>
           </div>
 
@@ -159,9 +159,9 @@ const Header = ({ white = true, round = true }: HeaderProps) => {
     menuOpen ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'
   }`}
 >
-  <ul className="w-full flex items-center md:hidden flex-col gap-4 font-jost text-base capitalize list-none py-4 px-4">
+  <ul className="w-full flex items-center lg:hidden flex-col gap-4 font-jost text-base capitalize list-none py-4 px-4">
     {LoggedOutMenu.map((item, index) => (
-      <li key={index} className="cursor-pointer">
+      <li key={index} className="cursor-pointer hover:text-[#B054D1]">
         <Link href={item.href}>{item.title}</Link>
       </li>
     ))}
@@ -174,7 +174,7 @@ const Header = ({ white = true, round = true }: HeaderProps) => {
     </li>
     <li className="cursor-pointer">
       <Link href="/sign-in">
-        <button className="px-7 py-3 text-black">Login</button>
+        <button className="px-7 py-3 text-black hover:text-[#B054D1]">Login</button>
       </Link>
     </li>
   </ul>
