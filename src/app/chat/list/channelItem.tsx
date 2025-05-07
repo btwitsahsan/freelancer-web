@@ -16,7 +16,7 @@ const ChannelItem: React.FC<ChannelItemProps> = ({ item }) => {
 
   const [inviteOpen, setInviteOpen] = useState<boolean>(false);
 
-  const handleRightClick = (event) => {
+  const handleRightClick = (event: React.MouseEvent) => {
     event.preventDefault(); // Prevent the default context menu
     // setMessage("Right-click detected!");
     setDrop(!drop);

@@ -11,7 +11,7 @@ const userItem = () => {
   const [block, setBlock] = useState(false);
 
 
-  const handleRightClick = (event) => {
+  const handleRightClick = (event: React.MouseEvent) => {
     event.preventDefault(); // Prevent the default context menu
     // setMessage("Right-click detected!");
     setDrop(!drop);

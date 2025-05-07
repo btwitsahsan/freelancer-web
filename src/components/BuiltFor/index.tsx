@@ -65,7 +65,7 @@ const BuiltFor = () => {
   };
 
   return (
-    <div className="relative w-full flex justify-center" id="core-features">
+    <div className="relative w-full flex flex-row justify-center" id="core-features">
       <div className="absolute right-[-170px] top-[420px] animate-floatingY">
         <Image
           src="/image/cube.svg"
