@@ -69,6 +69,7 @@ const DMList = () => {
           className="inline-flex justify-start items-center self-stretch gap-2.5 bg-white px-6 py-3.5 border border-gray-100 border-b-2"
         >
           <div className="relative flex justify-start items-center gap-2.5 h-12">
+          {user?.photoURL && (
             <Image
               width={48}
               height={48}
@@ -76,6 +77,7 @@ const DMList = () => {
               className="rounded-3xl"
               src={user?.photoURL}
             />
+          )}
             {state === "Online" && (
               <div className="absolute bg-emerald-500 mt-10 ml-10 border border-white rounded-full w-2 h-2" />
             )}
