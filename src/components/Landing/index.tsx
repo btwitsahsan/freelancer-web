@@ -93,7 +93,7 @@ const Landing = () => {
           alt="top job categories"
           width={307}
           height={239}
-          className="absolute right-[5%] md:right-[3%] lg:right-[5%] hidden md:block md:bottom-[60px] lg:bottom-[30px]"
+          className="absolute right-[5%] md:right-[3%] lg:right-[5%] hidden md:block md:bottom-[45px] lg:bottom-[30px]"
         />
       </motion.div>
 
