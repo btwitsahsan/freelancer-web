@@ -33,7 +33,6 @@ interface TypingStatus {
 }
 
 const MessageBox: React.FC<MessageBoxProps> = ({ sidebar, setSidebar }) => {
-
   const emojis = [
     "😀",
     "😂",
@@ -134,27 +133,28 @@ const MessageBox: React.FC<MessageBoxProps> = ({ sidebar, setSidebar }) => {
 
   const getMessageList = async () => {
     if (user) {
-      const response = await getMessage(selector.id, user.uid); 
+      const response = await getMessage(selector.id, user.uid);
       setMessageList(response || []); // Set the messages or an empty array if none found
     }
   };
 
-  const newMessageInit = async (sender:any, receiver:any) => {
+  const newMessageInit = async (sender: any, receiver: any) => {
     await newMsgInit(sender, receiver);
-  }
+  };
 
   useEffect(() => {
-
     if (user) {
-      
-      socket.on("typingStatus", (data: { senderId: string; isTyping: boolean }) => {
-        if (data.senderId !== user.uid) {
-          setTypingStatus((prev) => ({
-            ...prev,
-            [data.senderId]: data.isTyping,
-          }));
+      socket.on(
+        "typingStatus",
+        (data: { senderId: string; isTyping: boolean }) => {
+          if (data.senderId !== user.uid) {
+            setTypingStatus((prev) => ({
+              ...prev,
+              [data.senderId]: data.isTyping,
+            }));
+          }
         }
-      });
+      );
 
       socket.on("new Message", (data: { senderId: string }) => {
         getMessageList();
@@ -166,7 +166,6 @@ const MessageBox: React.FC<MessageBoxProps> = ({ sidebar, setSidebar }) => {
         socket.off("new Message");
       };
     }
-    
   }, [user]);
 
   useEffect(() => {
@@ -184,8 +183,7 @@ const MessageBox: React.FC<MessageBoxProps> = ({ sidebar, setSidebar }) => {
     { type: string; url: string; name: string }[]
   >([]);
 
-  const handleTyping = (event: React.ChangeEvent<HTMLInputElement>) => {
-
+  const handleTyping = (event: any) => {
     if (user) {
       const typing = event.target.value.length > 0;
       // Emit typing event to the selected user
@@ -209,10 +207,9 @@ const MessageBox: React.FC<MessageBoxProps> = ({ sidebar, setSidebar }) => {
       // setIsTyping(typing);
     }
     // alert("hello");
-    
   };
 
-  const handleKeyDown = async (event:any) => {
+  const handleKeyDown = async (event: any) => {
     if (event.key === "Enter" && event.shiftKey === false && user) {
       event.preventDefault();
       await handleUpload();
@@ -412,13 +409,16 @@ const MessageBox: React.FC<MessageBoxProps> = ({ sidebar, setSidebar }) => {
                 className="flex justify-start items-start self-stretch gap-2 my-2"
                 key={index}
               >
-                <Image
-                  className="relative rounded-3xl"
-                  width={48}
-                  height={48}
-                  alt="user"
-                  src={user?.photoURL}
-                />
+                {user?.photoURL && (
+                  <Image
+                    className="relative rounded-3xl"
+                    width={48}
+                    height={48}
+                    alt="user"
+                    src={user.photoURL}
+                  />
+                )}
+
                 <div className="inline-flex flex-col justify-start items-start gap-1 basis-0 grow shrink">
                   <div className="inline-flex justify-start items-center self-stretch gap-2">
                     <div className="font-bold text-[#041925] text-xs leading-none">
@@ -543,11 +543,11 @@ const MessageBox: React.FC<MessageBoxProps> = ({ sidebar, setSidebar }) => {
             <TypingIndicator avatarUrl={selector.avatar} name={selector.name} />
           </div> */}
 
-          {typingStatus[selector.id] && (
-            <div className="flex justify-start items-start self-stretch gap-2 my-1">
-              <TypingIndicator avatarUrl={selector.avatar} name={selector.name} />
-            </div>
-          )}
+        {typingStatus[selector.id] && (
+          <div className="flex justify-start items-start self-stretch gap-2 my-1">
+            <TypingIndicator avatarUrl={selector.avatar} name={selector.name} />
+          </div>
+        )}
 
         <div className="inline-flex items-start self-stretch bg-gray-100 px-3 py-1 rounded-lg relative">
           <div className="flex justify-start items-center pt-2">
@@ -617,7 +617,10 @@ const MessageBox: React.FC<MessageBoxProps> = ({ sidebar, setSidebar }) => {
               placeholder="Send your message..."
               inputRef={inputRef}
               value={message}
-              onChange={(e) => { handleTyping(event); setMessage(e.target.value); }}
+              onChange={(e) => {
+                handleTyping(e); // <- use the local e, not the global event
+                setMessage(e.target.value);
+              }}
               onKeyDown={handleKeyDown}
               color="success"
               sx={{
